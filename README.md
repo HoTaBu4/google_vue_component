@@ -4,8 +4,8 @@
 Склонуйте цей репозиторій до себе на комп'ютер:
 
 ```sh
-git clone https://github.com/шлях
-cd до потрібного файлу
+git clone https://github.com/HoTaBu4/google_vue_component.git
+cd google_vue_component
 ```
 
 ### 2. Встановлення залежностей
