@@ -1,0 +1,193 @@
+@import '/public/assets/mixins/mixins.scss';
+
+@media (min-width: 360px) {
+  .googleTemplate {
+    box-shadow: 0px 4px 15px 0px #0000000D;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    flex-direction: column;
+    max-width: 1458px;
+    &__left {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    &__main {
+      display: flex;
+      margin-bottom: 20px;
+      margin-right: 20px;
+      gap: 20px;
+    }
+  
+    &__img {
+      height: 40px;
+      width: 40px;
+    }
+
+    &__title {
+      font-family: Formular;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 26px;
+    }
+  
+    &__info {
+      margin-bottom: 6px;
+    }
+    &__star-block {
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__rating {
+      font-family: "Greenwich";
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+      width: 38px;
+    }
+  
+    &__stars {
+      width: 140px;
+      & > :not(:last-child) {
+        margin-right: 2px;
+      }
+    }
+  
+    &__numbers-of-views {
+      display: flex;
+      align-items: center;
+      color: #798595;
+    }
+  
+    &__controls {
+      display: flex;
+      flex-direction:column;
+      gap: 10px;
+    }
+  
+    &__button {
+      border-radius: 8px;
+      transition: background-color 0.5s ease, color 0.5s ease; 
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 44px;
+      padding: 0 20px;
+
+      font-family: 'Formular';
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 22px;
+
+      &--write {
+        background: linear-gradient(104deg, #3CB9A0, #1786AC);
+      }
+    
+      &--look {
+        border: 1px solid #AACEDB;
+        color: black;
+        background: linear-gradient(98deg, #E6F7F5, #F8FCFC);
+      }
+    
+      &:hover {
+        background: none; 
+        background: #36A8A0; 
+      }
+    }
+    
+  }
+}
+@media (min-width:677px) {
+
+  .googleTemplate {
+    flex-direction: row;
+  
+    &__img {
+      height: 40px;
+      width: 40px;
+    }
+  
+    &__info {
+      display: flex;
+      flex-direction: row;
+    }
+    &__star-block {
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__rating {
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 44px;
+    }
+  
+    &__stars {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__numbers-of-views {
+      margin-left: 20px;
+      color: #798595;
+    }
+  
+    &__controls {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    &__button {
+      flex-direction: row;
+    }
+  }
+}
+@media (min-width:1200px) {
+  .googleTemplate {
+    flex-direction: row;
+    align-items: center;
+    &__left {
+      flex-direction: row;
+      
+    }
+  
+    &__main {
+      margin-bottom: 0;
+    }
+  
+    &__img {
+      height: 40px;
+      width: 40px;
+    }
+    &__title {
+      display: flex;
+      align-items: center;
+      font-family: Formular;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+  
+    &__info {
+      align-items: center;
+      margin-bottom: 0;
+    }
+    &__star-block {
+      display: flex;
+      gap: 20px;
+    }
+  
+    &__rating {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__controls {
+      flex-direction:row;
+    }
+  }
+}

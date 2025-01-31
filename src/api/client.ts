@@ -1,5 +1,5 @@
 
-const BASE_URL = "https://interior-arluene-mwellick-4212a5bc.koyeb.app";
+const BASE_URL = "https://679788b9c2c861de0c6d12f2.mockapi.io/vue-project";
 
 
 type RequestMethod = "GET" | "POST" | "PATCH" | "DELETE";
